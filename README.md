@@ -124,12 +124,12 @@ things you need to change:
 | Contig | A continuous stretch of sequence assembled from overlapping reads |
 | Polishing | Correcting the errors that remain in a draft assembly |
 
-## A note on the use of AI
+## A note on the use of generative AI
 
-I used Claude Opus 5 to improve the documentation and comments in this 
-repo (including this README file). The code itself was not AI generated, 
-although I implemented a few changes after requesting feedback. 
-I reviewed and tested all notebooks manually.
+I used Claude Opus 5 to improve the documentation, explanations, and code comments
+in this repo (including this README file). The code itself was not AI generated, 
+although I implemented a few changes after requesting feedback. I reviewed and 
+tested all notebooks manually.
 
 ## License
 

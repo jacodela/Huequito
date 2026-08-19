@@ -79,6 +79,18 @@ environment, which is created the same way:
 conda env create -f envs/Nextflow.yaml
 ```
 
+### Container images
+The `nf-core` pipelines download container images the first time they run. To
+keep them in one place instead of re-downloading them for every project, create
+a folder where to store the container images and add the following to your 
+`~/.bashrc`, changing the path to your own, and open a new terminal afterwards:
+
+```bash
+export NXF_SINGULARITY_CACHEDIR="/mnt/lustre/groups/maier/YOUR_M3HPC_USERNAME/bin/nf-core"
+```
+
+You only need to do this once. It applies to every notebook that runs a pipeline.
+
 ### Cluster and storage
 Base calling runs on GPUs, so you need access to a GPU partition. The job
 usually takes a few hours, and the assembly pipeline takes a few more, depending
